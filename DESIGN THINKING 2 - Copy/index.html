@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good vs Bad Design Analysis - Interactive Presentation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Digital Grid Overlay for Techy Effect -->
+    <div class="digital-grid-overlay"></div>
+    
+    <!-- Progress Bar with Digital Style -->
+    <div class="progress-bar">
+        <div class="progress-fill"></div>
+        <div class="progress-scanner"></div>
+    </div>
+
+    <!-- Navigation Controls -->
+    <div class="nav-controls">
+        <button class="nav-btn prev-btn" id="prevBtn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 18l-6-6 6-6"/>
+            </svg>
+        </button>
+        <div class="slide-counter">
+            <span id="currentSlide">1</span> / <span id="totalSlides">9</span>
+        </div>
+        <button class="nav-btn next-btn" id="nextBtn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 18l6-6-6-6"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Slide Indicators -->
+    <div class="slide-indicators">
+        <div class="indicator active" data-slide="0"></div>
+        <div class="indicator" data-slide="1"></div>
+        <div class="indicator" data-slide="2"></div>
+        <div class="indicator" data-slide="3"></div>
+        <div class="indicator" data-slide="4"></div>
+        <div class="indicator" data-slide="5"></div>
+        <div class="indicator" data-slide="6"></div>
+        <div class="indicator" data-slide="7"></div>
+        <div class="indicator" data-slide="8"></div>
+    </div>
+
+    <!-- Transition Overlay for Techy Effects -->
+    <div class="transition-overlay">
+        <div class="glitch-lines"></div>
+        <div class="scanning-lines"></div>
+        <div class="digital-blocks"></div>
+    </div>
+
+    <!-- Main Presentation Container -->
+    <div class="presentation-container">
+        
+        <!-- Slide 1: Title -->
+        <div class="slide active" data-slide="0">
+            <div class="slide-content">
+                <div class="title-slide">
+                    <h1 class="main-title">Good vs Bad Design Analysis</h1>
+                    <h2 class="subtitle">A Comprehensive Study of Design Principles</h2>
+                    <div class="author-info">
+                        <p>Design Research Team</p>
+                        <div class="date">September 2025</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2: Introduction -->
+        <div class="slide" data-slide="1">
+            <div class="slide-content scrollable">
+                <h1>What Makes Good vs Bad Design?</h1>
+                <p class="intro-text">Design shapes our daily interactions with the world. Understanding what separates effective design from poor design is crucial for creating solutions that truly serve users.</p>
+                
+                <div class="comparison-grid">
+                    <div class="design-column good-design">
+                        <h3>Good Design Principles</h3>
+                        <ul class="design-list">
+                            <li>User-centered and intuitive interface design</li>
+                            <li>Solves real problems effectively and efficiently</li>
+                            <li>Accessible and inclusive for diverse user groups</li>
+                            <li>Aesthetically pleasing while maintaining functionality</li>
+                            <li>Sustainable and considers environmental impact</li>
+                            <li>Provides clear feedback and guidance to users</li>
+                        </ul>
+                    </div>
+                    <div class="design-column bad-design">
+                        <h3>Bad Design Issues</h3>
+                        <ul class="design-list">
+                            <li>Ignores user needs and creates confusion</li>
+                            <li>Creates more problems than it solves</li>
+                            <li>Wasteful of resources or inefficient in operation</li>
+                            <li>Poor usability and lacks accessibility</li>
+                            <li>No consideration for environmental consequences</li>
+                            <li>Unclear or misleading user guidance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Good Design #1 -->
+        <div class="slide" data-slide="2">
+            <div class="slide-content scrollable">
+                <h1>Good Design #1: What is Missing? Website</h1>
+                <h2 class="slide-subtitle">Maya Lin's Interactive Environmental Memorial</h2>
+                
+                <div class="content-grid">
+                    <div class="text-content">
+                        <div class="overview-box">
+                            <h3>Overview</h3>
+                            <p>Maya Lin's 'What is Missing?' represents a revolutionary approach to memorials, combining art, science, and technology to create an interactive digital memorial focused on biodiversity loss and climate change.</p>
+                            <div class="website-link">
+                                <a href="https://www.whatismissing.org/" target="_blank">Visit Website →</a>
+                            </div>
+                        </div>
+                        
+                        <div class="why-good-section">
+                            <h3>Why This is Good Design</h3>
+                            <ul class="features-list">
+                                <li>Innovative digital memorial format that transcends traditional monuments</li>
+                                <li>Interactive ecological storytelling with scientific accuracy</li>
+                                <li>Multi-platform approach connecting web, physical installations, and mobile</li>
+                                <li>User-generated content engagement with over 3,500 ecological stories</li>
+                                <li>Seamless integration of artistic vision with environmental data</li>
+                                <li>Educational value with actionable conservation focus</li>
+                                <li>Accessible design that works across different devices and platforms</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="image-content">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1756911052/pplx_project_search_images/97fd0876d030710486ddb66f69465d3a5129e614.png" alt="What is Missing website interface" class="design-image">
+                        <p class="image-caption">Interactive display from Maya Lin's "What is Missing?" memorial project</p>
+                    </div>
+                </div>
+                
+                <div class="key-points-section">
+                    <h3>Key Highlights</h3>
+                    <div class="points-grid">
+                        <div class="point-card">
+                            <h4>Created by Maya Lin</h4>
+                            <p>Renowned architect (Vietnam Memorial designer)</p>
+                        </div>
+                        <div class="point-card">
+                            <h4>Global Impact</h4>
+                            <p>Memorial to planet's sixth mass extinction and habitat loss</p>
+                        </div>
+                        <div class="point-card">
+                            <h4>Interactive Features</h4>
+                            <p>Map of Memory with searchable ecological histories and timelines</p>
+                        </div>
+                        <div class="point-card">
+                            <h4>Recognition</h4>
+                            <p>Award-winning web design recognized by Webby Awards and Awwwards</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: Good Design #2 -->
+        <div class="slide" data-slide="3">
+            <div class="slide-content scrollable">
+                <h1>Good Design #2: Smart/Switchable Glass Technology</h1>
+                <h2 class="slide-subtitle">Revolutionary PDLC Glass Technology</h2>
+                
+                <div class="content-grid">
+                    <div class="image-content">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1755265598/pplx_project_search_images/a6f90a4f25ba4f57c3bc215b3831cd95692f97f5.png" alt="Smart switchable glass projection" class="design-image">
+                        <p class="image-caption">Smart glass functioning as both window and projection surface</p>
+                    </div>
+                    
+                    <div class="text-content">
+                        <div class="overview-box">
+                            <h3>Technology Overview</h3>
+                            <p>Smart glass technology uses Polymer Dispersed Liquid Crystal (PDLC) to create glass that can instantly switch between transparent and opaque states, revolutionizing privacy, energy efficiency, and architectural design.</p>
+                        </div>
+                        
+                        <div class="why-good-section">
+                            <h3>Why This is Excellent Design</h3>
+                            <ul class="features-list">
+                                <li>Energy efficiency - reduces HVAC costs by up to 30%</li>
+                                <li>Instant privacy control with simple switch or app activation</li>
+                                <li>Superior UV protection - blocks over 95% of harmful rays</li>
+                                <li>Low maintenance compared to traditional blinds and curtains</li>
+                                <li>Multi-functional capabilities (projection screen, whiteboard surface)</li>
+                                <li>Sound dampening properties (up to 42dB noise reduction)</li>
+                                <li>Contributes to sustainable building practices and LEED certification</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-specs-section">
+                    <h3>Technical Specifications</h3>
+                    <div class="specs-grid">
+                        <div class="spec-card">
+                            <h4>Switching Time</h4>
+                            <p>Less than 0.1 seconds</p>
+                        </div>
+                        <div class="spec-card">
+                            <h4>Power Consumption</h4>
+                            <p>5-7 watts per square meter</p>
+                        </div>
+                        <div class="spec-card">
+                            <h4>Light Transmission</h4>
+                            <p>70% (clear) to 2% (opaque)</p>
+                        </div>
+                        <div class="spec-card">
+                            <h4>Durability</h4>
+                            <p>Over 50,000 switching cycles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Bad Design #1 -->
+        <div class="slide" data-slide="4">
+            <div class="slide-content scrollable">
+                <h1>Bad Design #1: RO Water Purifier Waste Problem</h1>
+                <h2 class="slide-subtitle">Massive Water Wastage in Reverse Osmosis Systems</h2>
+                
+                <div class="content-grid">
+                    <div class="text-content">
+                        <div class="problem-box">
+                            <h3>The Problem</h3>
+                            <p>Reverse Osmosis water purifiers waste 3-4 liters of water for every 1 liter of purified water produced, creating a 75% waste rate that significantly impacts water conservation efforts.</p>
+                        </div>
+                        
+                        <div class="why-bad-section">
+                            <h3>Why This is Poor Design</h3>
+                            <ul class="issues-list">
+                                <li>Massive water wastage - up to 270 liters per person monthly</li>
+                                <li>Environmental impact during water scarcity situations</li>
+                                <li>Increased water bills and operational costs for consumers</li>
+                                <li>Improper disposal of reject water without reuse consideration</li>
+                                <li>No built-in recycling or reuse mechanisms in most systems</li>
+                                <li>Lack of user awareness about waste levels and alternatives</li>
+                                <li>Contributes to groundwater depletion in urban areas</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="image-content">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1756903171/pplx_project_search_images/f46526ca432ace1415403f4282a1553a6f8baeea.png" alt="RO water purifier waste system" class="design-image">
+                        <p class="image-caption">RO purifier showing wastewater collection for reuse</p>
+                    </div>
+                </div>
+                
+                <div class="impact-section">
+                    <h3>Environmental Impact Data</h3>
+                    <div class="impact-grid">
+                        <div class="impact-card">
+                            <h4>Daily Waste</h4>
+                            <p>30-45 liters per household</p>
+                        </div>
+                        <div class="impact-card">
+                            <h4>Monthly Waste</h4>
+                            <p>900-1350 liters per household</p>
+                        </div>
+                        <div class="impact-card">
+                            <h4>Annual Impact</h4>
+                            <p>10,800-16,200 liters wasted yearly</p>
+                        </div>
+                        <div class="impact-card">
+                            <h4>Efficiency Rate</h4>
+                            <p>Only 25% output efficiency</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="solutions-preview">
+                    <h3>Proposed Solutions</h3>
+                    <ul class="solutions-list">
+                        <li>Add wastewater recycling tank attachment for cleaning and kitchen use</li>
+                        <li>Install storage drums for household non-potable water needs</li>
+                        <li>Use reject water for gardening, mopping, and vehicle washing</li>
+                        <li>Implement automatic recycling systems with smart routing</li>
+                        <li>Better user education about reuse options and environmental impact</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: Bad Design #2 -->
+        <div class="slide" data-slide="5">
+            <div class="slide-content scrollable">
+                <h1>Bad Design #2: Treadmill Emergency Stop Clip</h1>
+                <h2 class="slide-subtitle">Ineffective Safety Feature Design</h2>
+                
+                <div class="content-grid">
+                    <div class="image-content">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1756903169/pplx_project_search_images/7e214459ba4d93c6a012c115567e7d10ca933745.png" alt="Treadmill emergency stop clip" class="design-image">
+                        <p class="image-caption">Traditional treadmill safety clip with cord - often ignored by users</p>
+                    </div>
+                    
+                    <div class="text-content">
+                        <div class="problem-box">
+                            <h3>The Design Flaw</h3>
+                            <p>The traditional treadmill safety clip consists of a small red magnetic key attached to a cord that users must clip to their clothing, but studies show over 70% of users ignore or improperly use this safety feature.</p>
+                        </div>
+                        
+                        <div class="why-bad-section">
+                            <h3>Why This Design Fails</h3>
+                            <ul class="issues-list">
+                                <li>Poor user adoption - 70%+ of users rarely or never use the clip</li>
+                                <li>Cord dangles awkwardly and interferes with natural arm movements</li>
+                                <li>Small clip easily gets lost, damaged, or forgotten</li>
+                                <li>Provides limited protection - momentum still carries user off at high speeds</li>
+                                <li>String length often restricts natural movement during exercise</li>
+                                <li>Creates false sense of security without reliable fall prevention</li>
+                                <li>Primitive technology compared to available modern alternatives</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="safety-stats">
+                    <h3>Safety Statistics</h3>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <h4>Annual Injuries</h4>
+                            <p>24,000+ treadmill-related injuries in the US</p>
+                        </div>
+                        <div class="stat-card">
+                            <h4>User Compliance</h4>
+                            <p>Only 30% regularly use safety clips</p>
+                        </div>
+                        <div class="stat-card">
+                            <h4>Effectiveness</h4>
+                            <p>Limited fall prevention capability</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="solutions-preview">
+                    <h3>Modern Solutions</h3>
+                    <ul class="solutions-list">
+                        <li>Replace with motion sensor technology for automatic fall detection</li>
+                        <li>Implement wireless wristband detectors that auto-stop the treadmill</li>
+                        <li>Install weight sensors on treadmill platform for user position monitoring</li>
+                        <li>Add camera-based fall detection systems with AI recognition</li>
+                        <li>Use magnetic proximity sensors for seamless user tracking</li>
+                        <li>Integrate with fitness wearables for comprehensive safety monitoring</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Solutions -->
+        <div class="slide" data-slide="6">
+            <div class="slide-content scrollable">
+                <h1>Comprehensive Solutions & Design Improvements</h1>
+                <p class="intro-text">Transforming bad designs into sustainable, user-friendly solutions through innovative technology and thoughtful user experience design.</p>
+                
+                <div class="solutions-container">
+                    <div class="solution-section">
+                        <h2>RO Water Purifier Improvements</h2>
+                        <div class="solution-grid">
+                            <div class="solution-category">
+                                <h3>Immediate Solutions</h3>
+                                <ul>
+                                    <li>Install wastewater collection tanks with tap connections</li>
+                                    <li>Add automatic diverter valves for different water uses</li>
+                                    <li>Create gravity-fed systems for toilet flushing and cleaning</li>
+                                    <li>Implement drip irrigation systems for gardens using waste water</li>
+                                </ul>
+                            </div>
+                            <div class="solution-category">
+                                <h3>Advanced Solutions</h3>
+                                <ul>
+                                    <li>Smart sensors to optimize water-to-waste ratio based on input quality</li>
+                                    <li>AI-powered water quality monitoring for efficiency optimization</li>
+                                    <li>Integration with home automation for intelligent water management</li>
+                                    <li>Solar-powered circulation pumps for sustainable operation</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="impact-highlight">
+                            <strong>Impact:</strong> These solutions can reduce water waste by 60-80%, saving 6,000-12,000 liters annually per household.
+                        </div>
+                    </div>
+                    
+                    <div class="solution-section">
+                        <h2>Modern Treadmill Safety System Redesign</h2>
+                        <div class="solution-grid">
+                            <div class="solution-category">
+                                <h3>Sensor Technology</h3>
+                                <ul>
+                                    <li>Computer vision systems for real-time user position monitoring</li>
+                                    <li>Accelerometer-based wristbands for fall detection</li>
+                                    <li>Infrared sensors for automatic user presence detection</li>
+                                    <li>Machine learning algorithms for predictive safety intervention</li>
+                                </ul>
+                            </div>
+                            <div class="solution-category">
+                                <h3>User Experience</h3>
+                                <ul>
+                                    <li>Voice command emergency stop functionality</li>
+                                    <li>Gradual deceleration system to prevent sudden stops</li>
+                                    <li>Emergency alert system connecting to mobile apps</li>
+                                    <li>Personalized safety profiles based on user fitness level</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="impact-highlight">
+                            <strong>Impact:</strong> Modern sensor solutions could reduce treadmill injuries by 50-70% through proactive safety intervention.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Sources -->
+        <div class="slide" data-slide="7">
+            <div class="slide-content scrollable">
+                <h1>Sources & References</h1>
+                
+                <div class="sources-container">
+                    <div class="source-category">
+                        <h3>Primary Sources</h3>
+                        <ul class="sources-list">
+                            <li>Maya Lin Studio - What is Missing? Memorial Project Documentation</li>
+                            <li>Gauzy Smart Glass - Technical Specifications and Research Data</li>
+                            <li>Intelligent Glass Technology - Smart Glass Applications Overview</li>
+                            <li>AIS Glass India - Switchable Glass Technology Guide</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="source-category">
+                        <h3>Research Sources</h3>
+                        <ul class="sources-list">
+                            <li>DrinkPrime Research - RO Water Purifier Efficiency Analysis</li>
+                            <li>Pearl Water Technologies - Waste Water Management Studies</li>
+                            <li>ME Shop India - RO Purifier Water Recovery Optimization</li>
+                            <li>Down to Earth Environmental Magazine - Water Crisis Studies</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="source-category">
+                        <h3>Safety Sources</h3>
+                        <ul class="sources-list">
+                            <li>NCBI Research Database - Motion Sensor Safety Systems</li>
+                            <li>Consumer Product Safety Commission - Treadmill Injury Reports</li>
+                            <li>Reddit User Experience Surveys - Treadmill Safety Clip Usage</li>
+                            <li>Fitness Equipment Manufacturers Safety Studies</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="source-category">
+                        <h3>Design Recognition</h3>
+                        <ul class="sources-list">
+                            <li>Webby Awards - Digital Design Excellence Recognition</li>
+                            <li>Awwwards - What is Missing? Honorable Mention</li>
+                            <li>Americans for the Arts - Public Art Recognition</li>
+                            <li>Cornell Lab of Ornithology - Conservation Partnership</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: OPTIMIZED Credits Layout - Laptop Screen Friendly -->
+        <div class="slide" data-slide="8">
+            <div class="slide-content">
+                <h1>Team Credits</h1>
+                <h2 class="slide-subtitle">Collaborative Excellence in Design Analysis</h2>
+                
+                <!-- LAPTOP-OPTIMIZED CREDITS LAYOUT -->
+                <div class="laptop-optimized-credits">
+                    
+                    <!-- Team Leader Section - Compact Top Center -->
+                    <div class="leader-section-compact">
+                        <div class="leader-card-compact animated-leader" data-animation="leaderSpecial" data-delay="500">
+                            <div class="leader-avatar-compact">
+                                <div class="avatar-ring-compact"></div>
+                                <div class="leader-initial-compact">M</div>
+                            </div>
+                            <div class="leader-info-compact">
+                                <h2 class="leader-name-compact">Mayank</h2>
+                                <h3 class="leader-role-compact">Lead Designer & Project Leader</h3>
+                                <div class="leader-quote-compact">
+                                    <p>"Leading collaborative innovation through comprehensive research and thoughtful design thinking."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Members - Single Horizontal Row -->
+                    <div class="team-row-container">
+                        <h3 class="team-row-title">Expert Team Members</h3>
+                        <div class="horizontal-team-grid">
+                            
+                            <!-- Vaishnavi -->
+                            <div class="compact-member-card vaishnavi-card" data-animation="slideInLeft" data-delay="3000">
+                                <div class="compact-avatar vaishnavi-avatar">
+                                    <div class="compact-initial">V</div>
+                                </div>
+                                <h4 class="compact-name">Vaishnavi</h4>
+                                <p class="compact-role">Research Specialist</p>
+                                <ul class="compact-contributions">
+                                    <li>Primary research & data collection</li>
+                                    <li>Literature review & validation</li>
+                                    <li>User experience analysis</li>
+                                    <li>Technical writing</li>
+                                </ul>
+                                <div class="compact-badge research-badge">Research Excellence</div>
+                            </div>
+
+                            <!-- Rushikesh -->
+                            <div class="compact-member-card rushikesh-card" data-animation="slideInRight" data-delay="3500">
+                                <div class="compact-avatar rushikesh-avatar">
+                                    <div class="compact-initial">R</div>
+                                </div>
+                                <h4 class="compact-name">Rushikesh</h4>
+                                <p class="compact-role">Technical Analyst</p>
+                                <ul class="compact-contributions">
+                                    <li>System analysis & evaluation</li>
+                                    <li>Performance metrics</li>
+                                    <li>Solution feasibility</li>
+                                    <li>Technical documentation</li>
+                                </ul>
+                                <div class="compact-badge technical-badge">Technical Innovation</div>
+                            </div>
+
+                            <!-- Aditya -->
+                            <div class="compact-member-card aditya-card" data-animation="fadeInFloat" data-delay="4000">
+                                <div class="compact-avatar aditya-avatar">
+                                    <div class="compact-initial">A</div>
+                                </div>
+                                <h4 class="compact-name">Aditya</h4>
+                                <p class="compact-role">Visual Design Lead</p>
+                                <ul class="compact-contributions">
+                                    <li>Visual design research</li>
+                                    <li>Graphics creation</li>
+                                    <li>Layout coordination</li>
+                                    <li>Brand consistency</li>
+                                </ul>
+                                <div class="compact-badge creative-badge">Creative Vision</div>
+                            </div>
+
+                            <!-- Shubham -->
+                            <div class="compact-member-card shubham-card" data-animation="scaleRotate" data-delay="4500">
+                                <div class="compact-avatar shubham-avatar">
+                                    <div class="compact-initial">S</div>
+                                </div>
+                                <h4 class="compact-name">Shubham</h4>
+                                <p class="compact-role">Data Analyst</p>
+                                <ul class="compact-contributions">
+                                    <li>Quantitative analysis</li>
+                                    <li>Market research</li>
+                                    <li>Trend identification</li>
+                                    <li>Data visualization</li>
+                                </ul>
+                                <div class="compact-badge data-badge">Data Insights</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Collaborative Statement - Compact -->
+                    <div class="collaborative-footer">
+                        <div class="footer-card">
+                            <h3>Collaborative Achievement</h3>
+                            <p>This comprehensive design analysis represents the perfect synthesis of diverse expertise, where each team member's unique contributions created a research project that exceeds the sum of its parts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
